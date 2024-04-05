@@ -43,9 +43,7 @@ struct term poly_multiply(int As, int Ae, int Bs, int Be, int* Cs, int* Ce) {
 
 
 int main() {
-	struct term terms[MAX_TERMS] = { {4.0,3}, {3.0,2}, {2.0,1}, {1.0,0}, {3.0,2}, {2.0,1}, {8.0,0} };
 	int As = 0, Ae = 3, Bs = 4, Be = 6, Cs, Ce;
-	
 
 	print_poly(As, Ae);
 	print_poly(Bs, Be);
